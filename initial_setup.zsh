@@ -28,12 +28,13 @@ brew install "koekeishiya/formulae/skhd"
 brew install "koekeishiya/formulae/yabai"
 ## 3.2 casks
 brew install --cask "ghostty"
-brew install --cask "zen"
+# brew install --cask "zen" (when DRM)
 brew install --cask "spotify"
 brew install --cask "1password"
 brew install --cask "vlc"
 brew install --cask "raycast"
 brew install --cask "docker"
+brew install --cask "arc"
 
 # 4. Some important config for some of the above
 echo "$(whoami) ALL=(root) NOPASSWD: sha256:$(shasum -a 256 $(which yabai) | cut -d " " -f 1) $(which yabai) --load-sa" | sudo tee /private/etc/sudoers.d/yabai
