@@ -1,0 +1,10 @@
+# spotify and desktop
+ctrl - 0x12 : yabai -m space --focus 1
+ctrl - 0x13 : yabai -m space --focus 2
+
+# terminal and browser
+ctrl - 0x2C : yabai -m space --focus 3
+ctrl - 0x27 : yabai -m space --focus 4
+
+ctrl - right : yabai -m space --focus next
+ctrl - left : yabai -m space --focus prev
