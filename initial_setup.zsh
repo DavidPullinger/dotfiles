@@ -26,6 +26,11 @@ brew install "tmux"
 brew install "jq"
 brew install "koekeishiya/formulae/skhd"
 brew install "koekeishiya/formulae/yabai"
+### JS
+brew install "node"
+brew install "yarn"
+### PHP
+brew install "composer"
 ## 3.2 casks
 brew install --cask "ghostty"
 # brew install --cask "zen" (when DRM)
