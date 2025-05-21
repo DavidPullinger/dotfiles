@@ -9,6 +9,9 @@ require("lazy").setup({
   spec = {
     { import = "plugins" },
   },
+  install = {
+    colorscheme = { 'default' },
+  },
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
