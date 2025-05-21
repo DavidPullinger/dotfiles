@@ -1,0 +1,11 @@
+cask "ghostty"
+cask "spotify"
+cask "vlc"
+cask "raycast"
+cask "docker"
+cask "arc" # prefer zen in future
+
+# dev
+cask "1password"
+cask "1password-cli"
+cask "consul"

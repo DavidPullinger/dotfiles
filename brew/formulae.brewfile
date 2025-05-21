@@ -1,0 +1,28 @@
+brew "git"
+brew "fzf"
+brew "fd"
+brew "ripgrep"
+brew "neovim"
+brew "tmux"
+brew "jq"
+brew "koekeishiya/formulae/skhd"
+brew "koekeishiya/formulae/yabai"
+
+# Dev tool
+brew "hashicorp/tap/nomad"
+brew "levant"
+brew "rsync"
+brew "gettext"
+
+# JS
+brew "node"
+brew "yarn"
+brew "vite"
+
+# PHP
+brew "composer"
+brew "php-cs-fixer"
+
+# Python
+brew "poetry"
+brew "python@3.9"
