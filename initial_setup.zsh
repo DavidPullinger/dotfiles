@@ -16,9 +16,9 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # 3. Formulae, casks and taps
-HOMEBREW_BUNDLE_FILE_GLOBAL=$(pwd)/brew/formulae.brewfile
+export HOMEBREW_BUNDLE_FILE_GLOBAL=$(pwd)/brew/formulae.brewfile
 brew bundle check --global || brew bundle install --global
-HOMEBREW_BUNDLE_FILE_GLOBAL=$(pwd)/brew/casks.brewfile
+export HOMEBREW_BUNDLE_FILE_GLOBAL=$(pwd)/brew/casks.brewfile
 brew bundle check --global || brew bundle install --global
 
 # 4. Some important config for some of the above
