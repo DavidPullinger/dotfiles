@@ -1,4 +1,6 @@
 brew "git"
+brew "wget"
+brew "htop"
 brew "fzf"
 brew "fd"
 brew "ripgrep"
