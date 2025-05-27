@@ -1,10 +1,15 @@
-# spotify and desktop
-ctrl - 0x12 : yabai -m space --focus 1
-ctrl - 0x13 : yabai -m space --focus 2
+# some predefined key <-> application mappings
+## ctrl - /
+ctrl - 0x2C : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Ghostty
+## ctrl - "
+ctrl - 0x27 : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Arc
+## ctrl - }
+ctrl - 0x1E : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Spotify
+## ctrl - 0
+ctrl - 0x1D : $XDG_CONFIG_HOME/yabai/scripts/move_to_desktop.sh
 
-# terminal and browser
-ctrl - 0x2C : yabai -m space --focus 3
-ctrl - 0x27 : yabai -m space --focus 4
-
+# just moving between spaces
 ctrl - right : yabai -m space --focus next
 ctrl - left : yabai -m space --focus prev
+
+ctrl - f : yabai -m window --toggle native-fullscreen
