@@ -8,8 +8,18 @@ ctrl - 0x1E : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Spotify
 ## ctrl - 0
 ctrl - 0x1D : $XDG_CONFIG_HOME/yabai/scripts/move_to_desktop.sh
 
-# just moving between spaces
-ctrl - right : yabai -m space --focus next
-ctrl - left : yabai -m space --focus prev
+# toggle window layout between bsp and stack
+## ctrl - =
+ctrl - 0x18 : $XDG_CONFIG_HOME/yabai/scripts/toggle_layout.sh
 
-ctrl - f : yabai -m window --toggle native-fullscreen
+# moving between windows
+## these need to first determine if the layout is stack/bsp
+alt - left : $XDG_CONFIG_HOME/yabai/scripts/move_to_window.sh "left"
+alt - right : $XDG_CONFIG_HOME/yabai/scripts/move_to_window.sh "right"
+## these are easy - they only apply for bsp
+alt - up : yabai -m window --focus north
+alt - down : yabai -m window --focus south
+
+# disabling these for now
+ctrl - left: return
+ctrl - right: return
