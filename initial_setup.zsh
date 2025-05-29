@@ -1,9 +1,13 @@
 #!/bin/zsh
 
 # 1. Some important env variables
-echo > ~/.zshenv
-echo 'export XDG_CONFIG_HOME="$HOME/.config"' >> ~/.zshenv
-echo 'export ZDOTDIR="$XDG_CONFIG_HOME/zsh"' >> ~/.zshenv && mkdir -p ~/.config/zsh
+echo '
+export XDG_CONFIG_HOME="$HOME/.config"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export PATH="$HOME/work/stack/.bin:$PATH"
+export PATH="$HOME/work/stack/services/travel/lavender/vendor/bin:$PATH"
+' > ~/.zshenv
+mkdir -p ~/.config/zsh
 source ~/.zshenv
 
 # 2. Homebrew install
