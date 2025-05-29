@@ -1,6 +1,6 @@
 # some predefined key <-> application mappings
 ## ctrl - /
-ctrl - 0x2C : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Ghostty
+ctrl - 0x2C : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh ghostty || $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Ghostty
 ## ctrl - "
 ctrl - 0x27 : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Arc
 ## ctrl - }
@@ -14,12 +14,11 @@ ctrl - 0x18 : $XDG_CONFIG_HOME/yabai/scripts/toggle_layout.sh
 
 # moving between windows
 ## these need to first determine if the layout is stack/bsp
-alt - left : $XDG_CONFIG_HOME/yabai/scripts/move_to_window.sh "left"
-alt - right : $XDG_CONFIG_HOME/yabai/scripts/move_to_window.sh "right"
+alt + shift - left : $XDG_CONFIG_HOME/yabai/scripts/move_to_window.sh "left"
+alt + shift - right : $XDG_CONFIG_HOME/yabai/scripts/move_to_window.sh "right"
 ## these are easy - they only apply for bsp
-alt - up : yabai -m window --focus north
-alt - down : yabai -m window --focus south
+alt + shift - up : yabai -m window --focus north
+alt + shift - down : yabai -m window --focus south
 
-# disabling these for now
-ctrl - left: return
-ctrl - right: return
+ctrl - left: yabai -m space --focus prev
+ctrl - right: yabai -m space --focus next
