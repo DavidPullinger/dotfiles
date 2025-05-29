@@ -10,8 +10,9 @@ brew "jq"
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 
-# Dev tool
+# Dev stuff
 brew "hashicorp/tap/nomad"
+brew "redis"
 brew "levant"
 brew "rsync"
 brew "gettext"
