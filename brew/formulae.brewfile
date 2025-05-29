@@ -13,6 +13,7 @@ brew "koekeishiya/formulae/yabai"
 # Dev stuff
 brew "hashicorp/tap/nomad"
 brew "redis"
+brew "mariadb"
 brew "levant"
 brew "rsync"
 brew "gettext"
