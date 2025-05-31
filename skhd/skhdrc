@@ -3,8 +3,8 @@
 ctrl - 0x2C : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh ghostty || $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Ghostty
 ## ctrl - "
 ctrl - 0x27 : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Arc
-## ctrl - }
-ctrl - 0x1E : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Spotify
+## ctrl - {
+ctrl - 0x21 : $XDG_CONFIG_HOME/yabai/scripts/move_to_app.sh Spotify
 ## ctrl - 0
 ctrl - 0x1D : $XDG_CONFIG_HOME/yabai/scripts/move_to_desktop.sh
 
