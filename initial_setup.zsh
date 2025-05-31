@@ -1,11 +1,10 @@
 #!/bin/zsh
 
-# 1. Some important env variables
+# 1. Change default zsh directory
 echo '
 export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
-export PATH="$HOME/work/stack/.bin:$PATH"
-export PATH="$HOME/work/stack/services/travel/lavender/vendor/bin:$PATH"
 ' > ~/.zshenv
 mkdir -p ~/.config/zsh
 source ~/.zshenv
