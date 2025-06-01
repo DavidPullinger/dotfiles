@@ -1,0 +1,11 @@
+alias gs="git status"
+alias gb="git branch -vv"
+alias ga="git add"
+alias gc="git commit"
+alias gl="git log --oneline --decorate --graph"
+alias gsh="git stash"
+alias gsl="git stash list"
+alias gsp="git stash pop"
+alias gmm="git merge master"
+alias gd="git diff -w | diff-so-fancy"
+alias gitconf='git diff --check | awk -F ":" '"'"'{print $1}'"'"' | uniq'

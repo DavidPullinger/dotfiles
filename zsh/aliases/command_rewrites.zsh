@@ -1,0 +1,5 @@
+alias rg="rg -M 200 --hidden"
+alias cat="bat"
+alias vim="nvim"
+alias python="python3"
+alias pip="pip3"

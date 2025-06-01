@@ -1,0 +1,5 @@
+alias tls="tmux list-sessions"
+alias tks="tmux kill-session -t"
+alias tksserver="tmux kill-server"
+alias ta="tmux attach-session -t"
+alias td="tmux detach"
