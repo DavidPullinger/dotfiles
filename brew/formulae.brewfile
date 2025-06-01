@@ -7,6 +7,8 @@ brew "ripgrep"
 brew "neovim"
 brew "tmux"
 brew "jq"
+brew "bat"
+brew "ffmpeg"
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 
