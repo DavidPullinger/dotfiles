@@ -1,6 +1,6 @@
 alias zshr="source $ZDOTDIR/.zshrc"
 
-alias conf="vim $XDG_CONFIG_HOME/"
-alias zshconf="vim $ZDOTDIR/"
-alias vimconf="vim $XDG_CONFIG_HOME/nvim/"
-alias tmuxconf="vim $XDG_CONFIG_HOME/tmux/"
+alias conf="cd $XDG_CONFIG_HOME && nvim ."
+alias zshconf="cd $ZDOTDIR && nvim ."
+alias vimconf="cd $XDG_CONFIG_HOME/nvim && nvim ."
+alias tmuxconf="cd $XDG_CONFIG_HOME/tmux && nvim ."
