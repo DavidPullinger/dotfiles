@@ -9,6 +9,7 @@ brew "tmux"
 brew "jq"
 brew "bat"
 brew "ffmpeg"
+brew "tlrc"
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 
@@ -28,7 +29,9 @@ brew "vite"
 # PHP
 brew "composer"
 brew "php-cs-fixer"
+brew "phpstan"
 
 # Python
+brew "virtualenv"
 brew "poetry"
 brew "python@3.9"
