@@ -1,7 +1,9 @@
 # PATH stuff
 export PATH="$HOME/work/stack/.bin:$PATH"
 export PATH="$HOME/work/stack/services/travel/lavender/vendor/bin:$PATH"
+export PATH="$XDG_CONFIG_HOME/composer/vendor/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 # command completion
 autoload -Uz compinit
