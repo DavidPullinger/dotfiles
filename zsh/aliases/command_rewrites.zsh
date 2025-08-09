@@ -1,4 +1,4 @@
-alias rg="rg -M 200 --hidden"
+alias rg="rg -M 500 --hidden"
 alias cat="bat"
 alias vim="nvim"
 alias python="python3"

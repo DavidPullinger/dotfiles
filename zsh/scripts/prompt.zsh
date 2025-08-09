@@ -6,7 +6,7 @@ function update_git_prompt() {
 	fi
 
 	# get difference between origin and local
-	local my_head="$(git rev-parse @)"
+	local my_head="$(git rev-parse @ 2> /dev/null)"
 	local my_upstream="$(git rev-parse @{u} 2> /dev/null)"
 	local my_base="$(git merge-base @ @{u} 2> /dev/null)"
 	local my_status=""
