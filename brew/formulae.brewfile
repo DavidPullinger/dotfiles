@@ -10,6 +10,10 @@ brew "jq"
 brew "bat"
 brew "ffmpeg"
 brew "tlrc"
+brew "parallel"
+brew "nginx"
+brew "yt-dlp"
+brew "diff-so-fancy"
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 
@@ -20,9 +24,11 @@ brew "mariadb"
 brew "levant"
 brew "rsync"
 brew "gettext"
+brew "awscli"
 
 # JS
 brew "node"
+brew "fnm"
 brew "yarn"
 brew "vite"
 
