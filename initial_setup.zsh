@@ -19,8 +19,10 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # 3. Formulae, casks and taps
+echo "Installing formulae"
 export HOMEBREW_BUNDLE_FILE_GLOBAL=$(pwd)/brew/formulae.brewfile
 brew bundle check --global || brew bundle install --global
+echo "Installing casks"
 export HOMEBREW_BUNDLE_FILE_GLOBAL=$(pwd)/brew/casks.brewfile
 brew bundle check --global || brew bundle install --global
 
